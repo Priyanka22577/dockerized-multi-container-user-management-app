@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: ''
+                url: 'https://github.com/Priyanka22577/dockerized-multi-container-user-management-app.git'
             }
         }
 
